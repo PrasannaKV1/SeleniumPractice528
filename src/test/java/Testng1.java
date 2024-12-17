@@ -18,12 +18,13 @@ public class Testng1 {
     @BeforeMethod
     public void test2()
     {
-        System.out.println("the execution before the method ");
+        System.out.println("execute before the method  ");
     }
     @AfterMethod
-    public void test3)()
+    public void test3()
     {
-        System.out .println();
+        System.out .println("execute after the method ");
     }
+
 
 }
