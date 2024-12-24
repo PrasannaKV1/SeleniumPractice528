@@ -23,7 +23,17 @@ public class QuestionPaper {
      @FindBy(xpath = "(//div[@role='button'])[1]")
      WebElement Grade;
 
-     @FindBy(xpath = )
+     @FindBy(xpath = "(//div[@role='button'])[2]")
+     WebElement Section;
+
+     @FindBy(xpath = "//button[text()='Next']")
+     WebElement NextButtonFirstStep;
+
+
+
+
+
+
 
 
 }
