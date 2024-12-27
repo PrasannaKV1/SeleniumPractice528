@@ -30,11 +30,25 @@ public class QuestionPaper {
      WebElement NextButtonFirstStep;
 
 
+     public WebElement getAuto() {
+          return Auto;
+     }
 
+     public WebElement getCreateAssessment() {
+          return CreateAssessment;
+     }
 
+     public WebElement getCreateQP() {
+          return CreateQP;
+     }
 
+     public WebElement getGrade() {
+          return Grade;
+     }
 
-
+     public WebElement getNameofexamination() {
+          return Nameofexamination;
+     }
 
 }
 

@@ -12,10 +12,10 @@ public class QuestionBank {
     WebElement QuestionBank;
 
     @FindBy(xpath ="//span[text()='Public']")
-    WebElement publicorprivate;
+    WebElement publicORprivate;
 
 
 
 
-g
+
 }
